@@ -1,0 +1,13 @@
+#!/bin/bash
+#SBATCH -J ethylene-optimize
+#SBATCH -o ethylene_optimize.%j.%N.out
+#SBATCH -p shared
+#SBATCH -A itm101
+#SBATCH -N 1
+#SBATCH -n 1 
+#SBATCH -t 00:10:00
+
+module load cpu/0.15.4 gcc/10.2.0 mvapich2/2.3.6 
+module load qchem/6.0.2
+
+qchem ethylene_optimize.qcin ethylene_optimize.out

@@ -1,0 +1,6 @@
+$rem
+   JOBTYPE 
+   EXCHANGE HF
+   BASIS cc-pVTZ
+   GUI=2
+$end

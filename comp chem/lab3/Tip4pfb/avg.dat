@@ -1,0 +1,7 @@
+#Acceptor              DonorH          Donor   Frames         Frac      AvgDist       AvgAng
+#Solute-Solvent Hbonds:
+#Acceptor              DonorH          Donor    Count         Frac      AvgDist       AvgAng
+WAT_1@O              SolventH     SolventDnr     3776       1.5104       2.7957     161.3592
+SolventAcc           WAT_1@H2        WAT_1@O     1964       0.7856       2.8010     160.8941
+SolventAcc           WAT_1@H1        WAT_1@O     1938       0.7752       2.8012     161.3510
+#Bridging Solute Residues:
